@@ -16,3 +16,11 @@ function removeDups($array){
         echo "$value<br>";
     }
 }
+
+function distribution($array){
+    sort($array);
+    $array = array_count_values($array);
+    foreach($array as $key => $value) {
+        echo $key . " => " . $value . ", ";
+    }
+}

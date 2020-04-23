@@ -14,4 +14,5 @@ echo "<br>";
 largest($numbers);
 echo "<br>";
 removeDups($numbers);
-
+echo "<br>";
+distribution($numbers);
